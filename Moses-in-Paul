@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moses and the Law in the Letters of Saint Paul</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 100%;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #eaeaea;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    @media screen and (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+      thead tr {
+        display: none;
+      }
+      td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+      }
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 45%;
+        padding-left: 0.75rem;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Moses and the Law in the Letters of Saint Paul</h1>
+
+    <p>This table summarizes the most significant references to Moses and the Law in the epistles of Saint Paul, highlighting their theological context and purpose.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Reference</th>
+          <th>Theme</th>
+          <th>Explanation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td data-label="Reference">Romans 2:12–29</td><td data-label="Theme">Law and Conscience</td><td data-label="Explanation">Gentiles can fulfill the Law's moral demands instinctively, while Jews are judged by having the Law yet breaking it. True circumcision is spiritual, not just physical.</td></tr>
+        <tr><td data-label="Reference">Romans 3:19–31</td><td data-label="Theme">The Law Cannot Justify</td><td data-label="Explanation">The Law exposes sin but cannot save. Justification is by faith. Faith upholds the Law’s purpose.</td></tr>
+        <tr><td data-label="Reference">Romans 4:13–15</td><td data-label="Theme">Promise vs. Law</td><td data-label="Explanation">The promise to Abraham came through faith, not the Law, showing the Law’s inability to bring righteousness.</td></tr>
+        <tr><td data-label="Reference">Romans 5:13–14, 20</td><td data-label="Theme">Law and Sin</td><td data-label="Explanation">The Law made sin more evident but could not save; grace overcomes sin's increase.</td></tr>
+        <tr><td data-label="Reference">Romans 7:1–13</td><td data-label="Theme">The Law Reveals Sin</td><td data-label="Explanation">Believers have died to the Law. The Law is holy but intensifies sin's power.</td></tr>
+        <tr><td data-label="Reference">Romans 10:4–5</td><td data-label="Theme">Christ the Fulfillment</td><td data-label="Explanation">Christ is the end (goal) of the Law. Faith-righteousness replaces Law-righteousness.</td></tr>
+        <tr><td data-label="Reference">1 Corinthians 9:8–10</td><td data-label="Theme">Using the Law for Principles</td><td data-label="Explanation">Paul cites the Law of Moses to show spiritual truth behind practical commands.</td></tr>
+        <tr><td data-label="Reference">2 Corinthians 3:7–18</td><td data-label="Theme">Old vs. New Covenant</td><td data-label="Explanation">The Law brought death and fading glory; the Spirit brings life and lasting glory in Christ.</td></tr>
+        <tr><td data-label="Reference">Galatians 2:15–21</td><td data-label="Theme">Not Justified by Law</td><td data-label="Explanation">Paul rebukes reliance on Law for righteousness. Faith in Christ is the only way to be justified.</td></tr>
+        <tr><td data-label="Reference">Galatians 3:1–29</td><td data-label="Theme">The Law as a Tutor</td><td data-label="Explanation">The Law was added after the promise to lead to Christ. It imprisoned all under sin but is now obsolete in Christ.</td></tr>
+        <tr><td data-label="Reference">Galatians 4:21–31</td><td data-label="Theme">Two Covenants</td><td data-label="Explanation">Hagar represents the Law; Sarah the promise. Believers are children of the free woman.</td></tr>
+        <tr><td data-label="Reference">Galatians 5:1–6</td><td data-label="Theme">Bondage vs. Freedom</td><td data-label="Explanation">Seeking righteousness through circumcision enslaves. Faith expresses itself in love and freedom.</td></tr>
+        <tr><td data-label="Reference">Galatians 5:18</td><td data-label="Theme">Led by the Spirit</td><td data-label="Explanation">The Spirit replaces the Law as the guiding force for the believer's conduct.</td></tr>
+        <tr><td data-label="Reference">Philippians 3:4–9</td><td data-label="Theme">Paul’s Credentials Under the Law</td><td data-label="Explanation">Paul counts all his Jewish credentials under the Law as loss compared to knowing Christ and being justified by faith.</td></tr>
+        <tr><td data-label="Reference">1 Timothy 1:8–11</td><td data-label="Theme">Law for the Lawless</td><td data-label="Explanation">The Law is good if used correctly—not for the righteous, but to expose and restrain the sinful.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
