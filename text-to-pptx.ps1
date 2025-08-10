@@ -110,6 +110,10 @@ try {
             $charRange.Font.Italic = [Microsoft.Office.Core.MsoTriState]::msoTrue
         }
         
+        # Center the text box on the slide
+        $textBox.Left = (960 - $textBox.Width) / 2
+        $textBox.Top = (540 - $textBox.Height) / 2
+        
         # Enable auto-sizing to fit text
         $textBox.TextFrame.AutoSize = 1  # ppAutoSizeShapeToFitText
         
