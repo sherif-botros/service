@@ -90,6 +90,26 @@ try {
         $textBox.TextFrame.TextRange.Font.Size = 36
         $textBox.TextFrame.TextRange.Font.Name = "Calibri"
         
+        # Find and format verse numbers (at beginning of lines)
+        $textRange = $textBox.TextFrame.TextRange
+        $fullText = $textRange.Text
+        
+        # Use regex to find all verse numbers at the beginning of lines
+        $matches = [regex]::Matches($fullText, '(?m)^\d+')
+        
+        # Format each verse number as superscript and italic
+        foreach ($match in $matches) {
+            $startPos = $match.Index + 1  # PowerPoint uses 1-based indexing
+            $length = $match.Length
+            
+            # Get the character range for the verse number
+            $charRange = $textRange.Characters($startPos, $length)
+            
+            # Apply superscript and italic formatting
+            $charRange.Font.Superscript = [Microsoft.Office.Core.MsoTriState]::msoTrue
+            $charRange.Font.Italic = [Microsoft.Office.Core.MsoTriState]::msoTrue
+        }
+        
         # Enable auto-sizing to fit text
         $textBox.TextFrame.AutoSize = 1  # ppAutoSizeShapeToFitText
         
